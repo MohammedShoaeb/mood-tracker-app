@@ -1,0 +1,42 @@
+/*
+
+
+
+com.shadow.moodtracker/
+  ├── dataLayer/
+  │   ├── repository/
+  │   │   └── AuthRepository.kt
+  │   ├── api/
+  │   │   └── AuthApiService.kt
+  │   └── local/
+  │       └── UserLocalDataSource.kt
+  ├── domainLayer/
+  │   ├── usecases/
+  │   │   ├── LoginUseCase.kt
+  │   │   └── SignUpUseCase.kt
+  ├── presentationLayer/
+  │   ├── home/
+  │   │   └── HomePage.kt
+  │   ├── login/
+  │   │   └── LoginPage.kt
+  │   └── signup/
+  │       └── SignUpPage.kt
+  ├── ui/
+  │   └── theme/
+  │       ├── Color.kt
+  │       ├── Theme.kt
+  │       └── Type.kt
+  ├── utils/
+  │   └── Extensions.kt
+  ├── viewmodel/
+  │   └── AuthViewModel.kt
+  ├── MainActivity.kt
+  ├── Navigation.kt
+  ├── DependencyInjection/
+  │   ├── NetworkModule.kt
+  │   ├── RepositoryModule.kt
+  │   └── AppModule.kt
+  └── MoodTrackerApp.kt
+*/
+
+//            val elevations = listOf(0.dp, 2.dp, 4.dp, 6.dp, 8.dp)
